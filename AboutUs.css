@@ -1,0 +1,77 @@
+.about-us {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    background-color: #eff0f1;
+}
+
+.mission, .vision {
+    flex: 1 1 45%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #bbe6b0;
+    margin: 10px;
+}
+
+.mission h2, .vision h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.mission p, .vision p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666666;
+}

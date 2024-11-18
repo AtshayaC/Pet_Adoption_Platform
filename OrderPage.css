@@ -1,0 +1,102 @@
+/* OrderPage.css */
+
+.order-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}.order-page {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.order-page img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.order-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.order-page img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-page h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.order-page p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666;
+    line-height: 1.5;
+}
+
+.order-page button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-page button:hover {
+    background-color: #218838;
+}
